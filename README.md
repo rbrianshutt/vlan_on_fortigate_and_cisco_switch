@@ -1,6 +1,6 @@
 <h1>VLAN's on Fortigate and Cisco Switch</h1>
 
-![]()
+![](https://github.com/rbrianshutt/vlan_on_fortigate_and_cisco_switch/blob/main/VLAN%20on%20Fortigate%20and%20Cisco%20switch/2026-07-11%2023_34_07-Ubuntu%2064-bit%20-%20VMware%20Workstation.png)
 
 <h2>Description</h2>
 x
