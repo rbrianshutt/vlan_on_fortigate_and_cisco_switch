@@ -8,11 +8,13 @@ x
 
 <h2>Techonologies Used</h2>
 
-- <b>EVE-NG</b>
+- <b>EVE-NG for my homelab</b>
 - <b>Fortigate</b>
 - <b>Cisco Core Switch</b>
 - <b>Cisco Access Switches</b>
 - <b>VLAN's</b>
+- <b>Firewall policies</b>
+
 
 <h2>Overview:</h2>
 
