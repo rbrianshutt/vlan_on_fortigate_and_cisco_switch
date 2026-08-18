@@ -110,7 +110,7 @@ Incoming Interface as VLAN20
 
 <h1>Configure Cisco Core switch and Cisco Access switches</h1>
 
- <h2>Configure Cisco Core switch/h2>
+ <h3>Configure Cisco Core switch</h3>
 
 ![](https://github.com/rbrianshutt/vlan_on_fortigate_and_cisco_switch/blob/main/VLAN%20on%20Fortigate%20and%20Cisco%20switch/2026-07-11%2013_04_36-Switch-Core.png)
 
@@ -118,7 +118,7 @@ Show running-config <br/>
 
 ![](https://github.com/rbrianshutt/vlan_on_fortigate_and_cisco_switch/blob/main/VLAN%20on%20Fortigate%20and%20Cisco%20switch/2026-07-11%2013_05_39-Switch-Core.png)
 
-<h2>Configure Switch-Access-1</h2>
+<h3>Configure Switch-Access-1</h3>
 
 ![](https://github.com/rbrianshutt/vlan_on_fortigate_and_cisco_switch/blob/main/VLAN%20on%20Fortigate%20and%20Cisco%20switch/2026-07-11%2013_13_59-Switch-Access-1.png)
 
@@ -126,7 +126,7 @@ Show running-config  <br/>
 
 ![](https://github.com/rbrianshutt/vlan_on_fortigate_and_cisco_switch/blob/main/VLAN%20on%20Fortigate%20and%20Cisco%20switch/2026-07-11%2013_14_40-Switch-Access-1.png)
 
-<h2>Configure Switch-Access-2</h2>
+<h3>Configure Switch-Access-2</h3>
 
 ![](https://github.com/rbrianshutt/vlan_on_fortigate_and_cisco_switch/blob/main/VLAN%20on%20Fortigate%20and%20Cisco%20switch/2026-07-11%2013_22_18-Switch-Access-2.png)
 
