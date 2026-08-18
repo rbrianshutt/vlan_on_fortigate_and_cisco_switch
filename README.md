@@ -16,8 +16,8 @@ x
 
 <h2>Overview:</h2>
 
-- <b>x</b> 
-- <b>x</b>
+- <b>Fortigate setup and configuration of VLAN's and firewall policies</b> 
+- <b>Configure Cisco Core switch and Cisco Access switches</b>
 - <b>x</b>
 - <b>x</b>
 - <b>x</b>
