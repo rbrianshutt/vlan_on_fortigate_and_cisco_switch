@@ -90,8 +90,86 @@ Click OK<br/>
 
 <h2>Create firewalls policies</h2>
 
-Lorem ipsum  <br/>
+Policy & Objects -> Firewall policy -> Create New  <br/>
+Name as VLAN10_to_Internet<br/>
+Incoming Interface as VLAN10<br/>
+Outgoing Interface as WAN1<br/>
+Source as all, Destination as all, Service as all<br/>
+Enable NAT<br/>
+Click OK<br/>
 
-![]()
+![](https://github.com/rbrianshutt/vlan_on_fortigate_and_cisco_switch/blob/main/VLAN%20on%20Fortigate%20and%20Cisco%20switch/2026-07-11%2012_52_32-.png)
 <br />
+
+Configure VLAN20_to_Internet similar to VLAN10_to_Internet  <br/>
+Incoming Interface as VLAN20
+
+![](https://github.com/rbrianshutt/vlan_on_fortigate_and_cisco_switch/blob/main/VLAN%20on%20Fortigate%20and%20Cisco%20switch/2026-07-11%2012_53_59-Fortigate.png)
+<br />
+![](https://github.com/rbrianshutt/vlan_on_fortigate_and_cisco_switch/blob/main/VLAN%20on%20Fortigate%20and%20Cisco%20switch/2026-07-11%2012_54_44-Fortigate.png)
+
+<h1>Configure Cisco Core switch and Cisco Access switches</h1>
+
+ <h2>Configure Cisco Core switch/h2>
+
+![](https://github.com/rbrianshutt/vlan_on_fortigate_and_cisco_switch/blob/main/VLAN%20on%20Fortigate%20and%20Cisco%20switch/2026-07-11%2013_04_36-Switch-Core.png)
+
+Show running-config <br/>
+
+![](https://github.com/rbrianshutt/vlan_on_fortigate_and_cisco_switch/blob/main/VLAN%20on%20Fortigate%20and%20Cisco%20switch/2026-07-11%2013_05_39-Switch-Core.png)
+
+<h2>Configure Switch-Access-1</h2>
+
+![](https://github.com/rbrianshutt/vlan_on_fortigate_and_cisco_switch/blob/main/VLAN%20on%20Fortigate%20and%20Cisco%20switch/2026-07-11%2013_13_59-Switch-Access-1.png)
+
+Show running-config  <br/>
+
+![](https://github.com/rbrianshutt/vlan_on_fortigate_and_cisco_switch/blob/main/VLAN%20on%20Fortigate%20and%20Cisco%20switch/2026-07-11%2013_14_40-Switch-Access-1.png)
+
+<h2>Configure Switch-Access-2</h2>
+
+![](https://github.com/rbrianshutt/vlan_on_fortigate_and_cisco_switch/blob/main/VLAN%20on%20Fortigate%20and%20Cisco%20switch/2026-07-11%2013_22_18-Switch-Access-2.png)
+
+Show running-config  <br/>
+
+![](https://github.com/rbrianshutt/vlan_on_fortigate_and_cisco_switch/blob/main/VLAN%20on%20Fortigate%20and%20Cisco%20switch/2026-07-11%2013_22_50-Switch-Access-2.png)
+
+<h2>Create firewall policy between VLAN's</h2>
+
+Name as VLAN10-to-VLAN20  <br/>
+Incoming Interface as VLAN10<br/>
+Outgoing Interface as VLAN20<br/>
+Source as all, Destination as all, Service as all<br/>
+Disable NAT<br/>
+Click OK<br/>
+
+![](https://github.com/rbrianshutt/vlan_on_fortigate_and_cisco_switch/blob/main/VLAN%20on%20Fortigate%20and%20Cisco%20switch/2026-07-11%2013_43_01-Fortigate.png)
+
+Set similar to previous firewall policy<br/>
+Name as VLAN20-to-VLAN10  <br/>
+Incoming Interface as VLAN20<br/>
+Outgoing Interface as VLAN10<br/> 
+Disable NAT<br/>
+Click OK<br/>
+
+![](https://github.com/rbrianshutt/vlan_on_fortigate_and_cisco_switch/blob/main/VLAN%20on%20Fortigate%20and%20Cisco%20switch/2026-07-11%2013_43_49-Fortigate.png)
+
+<h2>Test connectivity on Virtual PC's 1 & 2</h2>
+
+VPC1<br/>
+Setup DHCP and get IP address 10.10.10.4<br/>
+Ping the internet at 8.8.8.8<br/>
+Ping the other VPC2 at 20.20.20.4<br/>
+All pings are successful for VPC1<br/>
+
+![](https://github.com/rbrianshutt/vlan_on_fortigate_and_cisco_switch/blob/main/VLAN%20on%20Fortigate%20and%20Cisco%20switch/2026-07-11%2023_33_10-VPC1.png)
+
+PC1<br/>
+Setup DHCP and get IP address 20.20.20.4<br/>
+Ping the internet at 8.8.8.8<br/>
+Ping the other VPC2 at 10.10.10.4<br/>
+All pings are successful for VPC2<br/>
+
+![](https://github.com/rbrianshutt/vlan_on_fortigate_and_cisco_switch/blob/main/VLAN%20on%20Fortigate%20and%20Cisco%20switch/2026-07-11%2023_33_26-VPC2.png)
+
 
