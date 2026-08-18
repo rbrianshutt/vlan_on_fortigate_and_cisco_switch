@@ -12,7 +12,7 @@ x
 - <b>Fortigate</b>
 - <b>Cisco Core Switch</b>
 - <b>Cisco Access Switches</b>
-- <b>VLAN's/b>
+- <b>VLAN's</b>
 
 <h2>Overview:</h2>
 
