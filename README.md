@@ -164,7 +164,7 @@ All pings are successful for VPC1<br/>
 
 ![](https://github.com/rbrianshutt/vlan_on_fortigate_and_cisco_switch/blob/main/VLAN%20on%20Fortigate%20and%20Cisco%20switch/2026-07-11%2023_33_10-VPC1.png)
 
-PC1<br/>
+VPC2<br/>
 Setup DHCP and get IP address 20.20.20.4<br/>
 Ping the internet at 8.8.8.8<br/>
 Ping the other VPC2 at 10.10.10.4<br/>
