@@ -8,15 +8,11 @@ x
 
 <h2>Techonologies Used</h2>
 
-- <b>x</b>
-- <b>x</b>
-- <b>x</b>
-- <b>x</b>
-- <b>x</b>
-
-<h2>Operating Systems</h2>
-
-- <b>Windows 10</b>
+- <b>EVE-NG</b>
+- <b>Fortigate</b>
+- <b>Cisco Core Switch</b>
+- <b>Cisco Access Switches</b>
+- <b>VLAN's/b>
 
 <h2>Overview:</h2>
 
